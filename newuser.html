@@ -143,77 +143,78 @@
           </div>
         </div>
       </div>
-
-      <div class="sidebar" id="sidebar">
-        <div class="sidebar-inner slimscroll">
-          <div id="sidebar-menu" class="sidebar-menu">
-            <ul>
-              <li>
-                <a href="index.html"
-                  ><img src="assets/img/icons/dashboard.svg" alt="img" /><span>
-                    Dashboard</span
-                  >
-                </a>
-              </li>
-              <li class="submenu">
-                <a href="javascript:void(0);"
-                  ><img src="assets/img/icons/product.svg" alt="img" /><span>
-                    Product</span
-                  >
-                  <span class="menu-arrow"></span
-                ></a>
+    
+          <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+              <div id="sidebar-menu" class="sidebar-menu">
                 <ul>
-                  <li><a href="productlist.html">Product List</a></li>
-                  <li><a href="addproduct.html">Add Product</a></li>
-                  <li><a href="categorylist.html">Category List</a></li>
-                  <li><a href="addcategory.html">Add Category</a></li>
-                  <li><a href="subcategorylist.html">Sub Category List</a></li>
-                  <li><a href="subaddcategory.html">Add Sub Category</a></li>
-                  <li><a href="brandlist.html">Brand List</a></li>
-                  <li><a href="addbrand.html" class="active">Add Brand</a></li>
-                  <li><a href="importproduct.html">Import Products</a></li>
+                  <li>
+                    <a href="index.html"
+                      ><img src="assets/img/icons/dashboard.svg" alt="img" /><span>
+                        Dashboard</span
+                      >
+                    </a>
+                  </li>
+                  <li class="submenu">
+                    <a href="javascript:void(0);"
+                      ><img src="assets/img/icons/product.svg" alt="img" /><span>
+                        Product</span
+                      >
+                      <span class="menu-arrow"></span
+                    ></a>
+                    <ul>
+                      <li><a href="productlist.html">Product List</a></li>
+                      <li><a href="addproduct.html">Add Product</a></li>
+                      <li><a href="categorylist.html">Category List</a></li>
+                      <li><a href="addcategory.html">Add Category</a></li>
+                      <li><a href="subcategorylist.html">Sub Category List</a></li>
+                      <li><a href="subaddcategory.html">Add Sub Category</a></li>
+                      <li><a href="brandlist.html">Brand List</a></li>
+                      <li><a href="addbrand.html">Add Brand</a></li>
+                      <li><a href="importproduct.html">Import Products</a></li>
+                    </ul>
+                  </li>
+                  <li class="submenu">
+                    <a href="javascript:void(0);"><img src="assets/img/icons/quotation1.svg" alt="img" /><span>
+                        E-bay</span>
+                      <span class="menu-arrow"></span>
+                    </a>
+                  </li>
+                  <li class="submenu">
+                    <a href="javascript:void(0);"
+                      ><img src="assets/img/icons/time.svg" alt="img" /><span>
+                        Report</span
+                      >
+                      <span class="menu-arrow"></span
+                    ></a>
+                    <ul>
+                      <li><a href="purchaseorderreport.html">Demo report 1</a></li>
+                      <li><a href="invoicereport.html">Demo report 2</a></li>
+                    </ul>
+                  </li>
+                  <li class="submenu">
+                    <a href="javascript:void(0);"
+                      ><img src="assets/img/icons/users1.svg" alt="img" /><span>
+                        Users</span
+                      >
+                      <span class="menu-arrow"></span
+                    ></a>
+                    <ul>
+                      <li><a href="newuser.html" class="active">New User </a></li>
+                      <li><a href="userlists.html">Users List</a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-              <li class="submenu">
-                <a href="javascript:void(0);"><img src="assets/img/icons/quotation1.svg" alt="img" /><span>
-                    E-bay</span>
-                  <span class="menu-arrow"></span>
-                </a>
-              </li>
-              <li class="submenu">
-                <a href="javascript:void(0);"
-                  ><img src="assets/img/icons/time.svg" alt="img" /><span>
-                    Report</span
-                  >
-                  <span class="menu-arrow"></span
-                ></a>
-                <ul>
-                  <li><a href="purchaseorderreport.html">Demo report 1</a></li>
-                  <li><a href="invoicereport.html">Demo report 2</a></li>
-                </ul>
-              </li>
-              <li class="submenu">
-                <a href="javascript:void(0);"
-                  ><img src="assets/img/icons/users1.svg" alt="img" /><span>
-                    Users</span
-                  >
-                  <span class="menu-arrow"></span
-                ></a>
-                <ul>
-                  <li><a href="newuser.html">New User </a></li>
-                  <li><a href="userlists.html">Users List</a></li>
-                </ul>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+
       <div class="page-wrapper">
         <div class="content">
           <div class="page-header">
             <div class="page-title">
-              <h4>Brand ADD</h4>
-              <h6>Create new Brand</h6>
+              <h4>User Management</h4>
+              <h6>Add/Update User</h6>
             </div>
           </div>
 
@@ -222,20 +223,46 @@
               <div class="row">
                 <div class="col-lg-3 col-sm-6 col-12">
                   <div class="form-group">
-                    <label>Brand Name</label>
+                    <label>User Name</label>
                     <input type="text" />
                   </div>
-                </div>
-                <div class="col-lg-12">
                   <div class="form-group">
-                    <label>Description</label>
-                    <textarea class="form-control"></textarea>
+                    <label>Email</label>
+                    <input type="text" />
+                  </div>
+                  <div class="form-group">
+                    <label>Password</label>
+                    <div class="pass-group">
+                      <input type="password" class="pass-input" />
+                      <span class="fas toggle-password fa-eye-slash"></span>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-3 col-sm-6 col-12">
                   <div class="form-group">
-                    <label> Product Image</label>
-                    <div class="image-upload">
+                    <label>Mobile</label>
+                    <input type="text" />
+                  </div>
+                  <div class="form-group">
+                    <label>Role</label>
+                    <select class="select">
+                      <option>Select</option>
+                      <option>Role</option>
+                      <option>Role1</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Confirm Password</label>
+                    <div class="pass-group">
+                      <input type="password" class="pass-inputs" />
+                      <span class="fas toggle-passworda fa-eye-slash"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                  <div class="form-group">
+                    <label> Profile Picture</label>
+                    <div class="image-upload image-upload-new">
                       <input type="file" />
                       <div class="image-uploads">
                         <img src="assets/img/icons/upload.svg" alt="img" />
@@ -248,7 +275,9 @@
                   <a href="javascript:void(0);" class="btn btn-submit me-2"
                     >Submit</a
                   >
-                  <a href="brandlist.html" class="btn btn-cancel">Cancel</a>
+                  <a href="javascript:void(0);" class="btn btn-cancel"
+                    >Cancel</a
+                  >
                 </div>
               </div>
             </div>
